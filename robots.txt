@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://umut-net.github.io/yolmasrafi/sitemap.xml
