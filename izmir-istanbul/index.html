@@ -3,7 +3,7 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>İzmir İstanbul Arası Yol Masrafı Hesaplama 2026</title>
+<title>İzmir - İstanbul Yol Masrafı ve Yakıt Hesaplama (2026 KGM Otoyol Ücreti)</title>
 <link href="https://fonts.googleapis.com/css2?family=Syne:wght@400;600;700;800&family=DM+Sans:ital,wght@0,300;0,400;0,500;1,300&display=swap" rel="stylesheet">
 <style>
 :root{--bg:#0d0f14;--surface:#161920;--surface2:#1e2230;--border:#2a2f42;--accent:#f5a623;--accent2:#e8522a;--text:#eef0f6;--muted:#7a7f96;--green:#2ecc71;--blue:#3b82f6;--purple:#a855f7;}
@@ -167,19 +167,35 @@ select option{background:#1e2230;}
   <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css"/>
   <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
 
-  <meta name="description" content="İzmir'den İstanbul'a araçla gidiş maliyeti: yakıt, otoyol (HGS) ve toplam masraf hesabı. 2026 güncel fiyatlarla ücretsiz hesapla.">
-  <meta name="keywords" content="İzmir İstanbul yol masrafı, İzmir İstanbul yakıt masrafı, İzmir İstanbul otoyol ücreti, İzmir İstanbul araba masrafı">
-  <meta property="og:title" content="İzmir İstanbul Arası Yol Masrafı Hesaplama 2026">
-  <meta property="og:description" content="İzmir'den İstanbul'a araçla gidiş maliyeti: yakıt, otoyol (HGS) ve toplam masraf hesabı. 2026 güncel fiyatlarla ücretsiz hesapla.">
+  <meta name="description" content="İzmir ile İstanbul arası arabanız ne kadar yakar? 2026 güncel benzin, dizel, LPG fiyatları ve KGM otoban ücretleriyle net yol masrafınızı hesaplayın.">
+  <meta name="keywords" content="İzmir İstanbul arası kaç km, İzmir İstanbul yol masrafı, İzmir İstanbul araçla ne kadar yakar, İzmir İstanbul otoban ücreti 2026, i̇zmir istanbul hgs ücreti">
+  <meta property="og:title" content="İzmir - İstanbul Yol Masrafı ve Yakıt Hesaplama (2026 KGM Otoyol Ücreti)">
+  <meta property="og:description" content="İzmir ile İstanbul arası arabanız ne kadar yakar? 2026 güncel benzin, dizel, LPG fiyatları ve KGM otoban ücretleriyle net yol masrafınızı hesaplayın.">
   <meta property="og:type" content="website">
-  <link rel="canonical" href="https://yolmasrafi.com/izmir-istanbul/">
+  <link rel="canonical" href="https://umut-net.github.io/yolmasrafi/izmir-istanbul/">
+  
   <script type="application/ld+json">
   {
     "@context": "https://schema.org",
-    "@type": "WebPage",
-    "name": "İzmir İstanbul Arası Yol Masrafı Hesaplama 2026",
-    "description": "İzmir'den İstanbul'a araçla gidiş maliyeti: yakıt, otoyol (HGS) ve toplam masraf hesabı. 2026 güncel fiyatlarla ücretsiz hesapla.",
-    "url": "https://yolmasrafi.com/izmir-istanbul/"
+    "@type": "FAQPage",
+    "mainEntity": [
+      {
+        "@type": "Question",
+        "name": "İzmir - İstanbul otoyol (otoban) ücreti ne kadar?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "2026 yılı güncel KGM tarifesine göre İzmir ile İstanbul arası otoyol (HGS) ücreti ortalama 1965 ₺ civarındadır."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "İzmir - İstanbul arası araçla yol masrafı ne kadar tutar?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Yol masrafı aracınızın yakıt tipine (Benzin, Dizel, LPG) ve tüketimine göre değişmektedir. Sayfamızdaki hesaplama aracı ile güncel 2026 akaryakıt fiyatları üzerinden net maliyetinizi öğrenebilirsiniz."
+        }
+      }
+    ]
   }
   </script>
 </head>
@@ -211,6 +227,14 @@ select option{background:#1e2230;}
 
   <!-- FORM -->
 
+  
+    <div style="margin-bottom: 20px; padding: 15px; background: var(--surface2); border-radius: 12px; border: 1px solid var(--border);">
+        <h1 style="font-size: 1.2rem; margin-bottom: 10px; color: var(--text);">🚙 İzmir - İstanbul Yolculuk Masrafı ve Güzergah Bilgileri</h1>
+        <p style="font-size: 0.9rem; color: var(--muted); line-height: 1.5;">
+            <strong>İzmir</strong> şehrinden yola çıkıp <strong>İstanbul</strong> şehrine kendi aracınızla seyahat etmeyi planlıyorsanız, güncel yakıt fiyatları ve <strong>2026 KGM otoyol ücretleri</strong> ile net maliyetinizi bu sayfadan hesaplayabilirsiniz. Dilerseniz otobüs veya uçak biletleriyle araba masrafınızı karşılaştırabilirsiniz.
+        </p>
+    </div>
+    
   <div class="card">
     <div class="card-title">Güzergah & Araç Bilgileri</div>
     <div class="form-grid">
@@ -468,7 +492,7 @@ select option{background:#1e2230;}
     </div>
   
 
-    <!-- POPÜLER ROTALAR -->
+     <!-- POPÜLER ROTALAR -->
     <div class="card" style="margin-top:0">
       <div class="card-title">Popüler Rotalar</div>
       <div style="display:grid;grid-template-columns:repeat(auto-fill,minmax(200px,1fr));gap:10px;">
@@ -1011,6 +1035,7 @@ populateCities();
         if (f && t) {
           f.value = 'İzmir';
           t.value = 'İstanbul';
+          // Varsayılan aracı seç
           document.getElementById('carModel').value = '7.0';
           calculate();
         }
